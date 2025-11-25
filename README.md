@@ -1,5 +1,4 @@
 
----
 Federated ClinicalBERT: Privacy-First Multi-Hospital Disease Prediction
 ---
 
@@ -103,11 +102,13 @@ ROUND 1/20
 
 ---
 
-Project Structure
-text
-.
+**Project Structure**
+
+
 ├── Federated_Uneven.ipynb         # Main notebook (federated learning pipeline)
+
 ├── .csv                           # Example data file (clinical notes w/ disease_label)
+
 ├── /output                        # Visualizations, saved models, histories
 
 ---
