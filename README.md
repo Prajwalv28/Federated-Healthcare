@@ -3,17 +3,17 @@
 Federated ClinicalBERT: Privacy-First Multi-Hospital Disease Prediction
 ---
 
-Healthcare
-AIPrivacy 
+Healthcare,
+AIPrivacy,
 Built with PyTorch,NLP
 
 ---
-Overview
+**Overview**
 
 This repository implements a Federated Learning framework for disease prediction from clinical notes—enabling multiple hospitals to collaboratively develop a powerful, privacy-preserving NLP model using ClinicalBERT. Patient data remains securely on-site, while only model weights are shared, ensuring HIPAA compliance and real-world healthcare viability.
 
 ---
-Features
+**Features**
 
 Multi-Hospital Federated Learning: Trains ClinicalBERT models across 5+ hospitals with configurable (uneven) data splits
 
@@ -35,7 +35,8 @@ Plug-and-play for synthetic or real datasets
 
 ---
 
-Business Impact
+**Business Impact**
+
 Improves clinical decision support: faster, more accurate disease detection from unstructured text
 
 Enables HIPAA-compliant collaboration across institutions
@@ -45,7 +46,9 @@ Reduces manual review workload and operational costs
 Scalable architecture for deployment in real-world healthcare networks
 
 ---
-Tech Stack
+
+**Tech Stack**
+
 Python 3.12+
 
 PyTorch
@@ -61,7 +64,9 @@ Jupyter Notebook (development)
 MIMIC-III dataset (or your custom CSV data)
 
 ---
-Getting Started
+
+**Getting Started**
+
 1. Clone the Repository
 bash
 git clone https://github.com/Prajwalv28/Federated-Healthcare.git
@@ -107,17 +112,17 @@ text
 
 ---
 
-License
+**License**
 
 MIT License
 
 ---
-Citation
+**Citation**
 
 Emily Alsentzer et al. "Publicly Available Clinical BERT Embeddings", NAACL 2019.
 
 ---
-Contact
+**Contact**
 Author: Prajwal Venkat Venkatesh
 
 Questions, feedback, and collaboration proposals: [prajwalvenkatv@gmail.com]
